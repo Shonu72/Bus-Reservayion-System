@@ -50,7 +50,7 @@ void mainMenu()
         system("cls");
 
         // MENU ITEMS
-        printHeading("MAIN MENU");
+        cout << "\t\t\t\t\t\t\t\t\t\t||                 MAIN MENU                  ||\n\n\n";
 
         cout << "\t\t\t\t\t\t\t\t\t\t-------------------------------------------------\n";
         cout << "\t\t\t\t\t\t\t\t\t\t 1. User Menu                                    \n";
@@ -95,7 +95,7 @@ void adminLogin()
 
     system("cls");
 
-    printHeading("ADMIN LOGIN");
+    cout << "\t\t\t\t\t         ADMIN LOGIN        \n\n\n";
 
     cout << "\n\t\t\t\t\t\t\t\t\t\tEnter AdminID:-> ";
     cin >> adminUname;
@@ -127,7 +127,7 @@ void userMenu()
         Ticket t;
 
         // MENU ITEMS
-        printHeading("USER MENU");
+        cout << "\t\t\t\t\t\t\t||                 USER MENU                        ||\n\n\n";
 
         cout << "\t\t\t\t\t\t\t\t\t\t-------------------------------------------------\n";
         cout << "\t\t\t\t\t\t\t\t\t\t 1. Book Ticket                                  \n";
@@ -186,7 +186,7 @@ void adminMenu()
     {
         system("cls");
 
-        printHeading("ADMIN PORTAL");
+        cout << "\t\t\t\t\t\t\t\t\t\t||                  ADMIN PORTAL                ||\n\n\n";
 
         cout << "\t\t\t\t\t\t\t\t\t\t-------------------------------------------------\n";
         cout << "\t\t\t\t\t\t\t\t\t\t 1. Add Bus                                      \n";
