@@ -14,17 +14,6 @@ void adminLogin();
 void viewBookingsMenu();
 void welcomeScreen();
 
-// MAIN FUNCTION
-int main()
-{
-    system("cls");
-    system("COLOR 0f");
-
-    welcomeScreen();
-
-    return 0;
-}
-
 //  WELCOME SCREEN FUNCTION
 void welcomeScreen()
 {
@@ -360,4 +349,15 @@ void viewBookingsMenu()
             viewBookingsMenu();
         }
     }
+}
+
+// MAIN FUNCTION
+int main()
+{
+    system("cls");
+    system("COLOR 0f");
+
+    welcomeScreen();
+
+    return 0;
 }
